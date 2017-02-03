@@ -7,7 +7,7 @@ both parts of the Electron app: the main process and the renderer.
 Much of the code was forked from [Martin Klepsch's repository](https://github.com/martinklepsch/electron-and-clojurescript)
 
 To make it boilerplate, I have removed the demo directory and edited `src/main.cljs` to
-the latest ideomatic electron
+the latest idiomatic electron
 
 #### Development
 
@@ -37,7 +37,7 @@ The easiest way to package an electron app is by using
 [`electron-packager`](https://github.com/maxogden/electron-packager):
 
 ```
-electron-packager target/ MyApp --platform=darwin --arch=x64 --version=0.31.2
+electron-packager target/ MyApp --platform=<platform> --arch=<architecture> --version=<version>
 ```
 
 #### Video
